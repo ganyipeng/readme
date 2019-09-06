@@ -1,0 +1,29 @@
+{
+  "title": "",
+  "type": "object",
+  "properties": {
+    "贷款卡/中征码编号": {
+      "type": "string"
+    },
+    "贷款卡/中征码密码": {
+      "type": "string"
+    },
+    "年审日期": {
+      "type": "string",
+      "format": "date"
+    },
+    "是否吊销": {
+      "type": "string",
+      "enum": [
+        "是",
+        "否"
+      ]
+    }
+  },
+  "required": [
+    "贷款卡/中征码编号",
+    "贷款卡/中征码密码",
+    "年审日期",
+    "是否吊销"
+  ]
+}
