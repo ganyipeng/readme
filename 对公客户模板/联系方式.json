@@ -1,0 +1,56 @@
+{
+  "title": "",
+  "type": "object",
+  "properties": {
+    "客户名称": {
+      "type": "string"
+    },
+    "主办部门": {
+      "type": "string"
+    },
+    "业务经理": {
+      "type": "string"
+    },
+    "联系人": {
+      "type": "string"
+    },
+    "手机号码": {
+      "type": "string"
+    },
+    "联系人角色": {
+      "type": "string"
+    },
+    "固定电话": {
+      "type": "string"
+    },
+    "传真": {
+      "type": "string"
+    },
+    "通讯地址": {
+      "type": "string"
+    },
+    "邮政编码": {
+      "type": "string"
+    },
+    "Email地址": {
+      "type": "string"
+    },
+    "备注": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "客户名称",
+    "主办部门",
+    "业务经理",
+    "联系人",
+    "手机号码",
+    "联系人角色",
+    "固定电话",
+    "传真",
+    "通讯地址",
+    "邮政编码",
+    "Email地址",
+    "备注"
+  ]
+}
